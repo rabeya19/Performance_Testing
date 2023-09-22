@@ -16,7 +16,7 @@ JMeter empowers you to execute a diverse range of performance tests, encompassin
 5. [Stress Testing](#stress-testing)
 6. [Spike Testing](#spike-testing)
 7. [Endurance Testing](#endurance-testing)
-8. [CSV File](#csv-file)
+8. [Read Test Data from CSV file](#read-test-data-from-csv-file)
 9. [Feedback and Questions](#feedback-and-questions)
 
 ## Getting Started
@@ -55,7 +55,7 @@ To create a performance test plan:
 
 ## Load Testing
 
-Load testing involves assessing how a system performs under expected loads. To perform load testing with JMeter:
+Load testing involves assessing how a system performs under expected loads. To perform load testing with JMeter.
 
 Number of Threads 5100, Ramp-up period is set to 10s with loop count of 1:
 
@@ -99,7 +99,7 @@ Summary: Server can handle almost concurrent 5300 API call with almost zero (0) 
 
 ## Stress Testing
 
-Stress testing evaluates a system's stability by applying an excessive load. To perform stress testing with JMeter:
+Stress testing evaluates a system's stability by applying an excessive load. To perform stress testing with JMeter.
 
 Number of Threads 5400, Ramp-up period is set to 10s with loop count of 1:
 
@@ -121,11 +121,12 @@ Requests Summary             |  Errors
 
 ## Spike Testing
 
-Spike testing assesses how a system handles sudden spikes in traffic. To perform spike testing with JMeter:
-Requests Summary             |  Errors
-:-------------------------:|:-------------------------:
+Spike testing assesses how a system handles sudden spikes in traffic. To perform spike testing with JMeter.
+
 Number of Threads 6000, Ramp-up period is set to 10s with loop count of 1:
 
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
 ![spike_graph6000](https://github.com/rabeya19/Performance_Testing/assets/50509949/2c751f7e-e4ac-4afc-b6ec-29904a208823) | ![spike_error600](https://github.com/rabeya19/Performance_Testing/assets/50509949/8e0816dc-b113-4df5-8e52-2a12128b1204)
 
 ## Endurance Testing
