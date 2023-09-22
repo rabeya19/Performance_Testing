@@ -58,28 +58,34 @@ To create a performance test plan:
 Load testing involves assessing how a system performs under expected loads. To perform load testing with JMeter:
 
 Number of Threads 5100, Ramp-up period is set to 10s with loop count of 1:
-![error_5100](https://github.com/rabeya19/Performance_Testing/assets/50509949/caec0fcf-d868-4088-bc64-b58f327272bc)
-![graph_5100](https://github.com/rabeya19/Performance_Testing/assets/50509949/033bea0d-2f79-482c-af42-9b2c37e7e7eb)
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+![error_5100](https://github.com/rabeya19/Performance_Testing/assets/50509949/caec0fcf-d868-4088-bc64-b58f327272bc) | ![graph_5100](https://github.com/rabeya19/Performance_Testing/assets/50509949/033bea0d-2f79-482c-af42-9b2c37e7e7eb)
 
 Number of Threads 5200, Ramp-up period is set to 10s with loop count of 1:
-![graph_5200](https://github.com/rabeya19/Performance_Testing/assets/50509949/1cf9afb0-078d-4737-97c6-9118f1111064)
-![error_5200](https://github.com/rabeya19/Performance_Testing/assets/50509949/8ee21330-c011-4825-a143-8c190faafe86)
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+![graph_5200](https://github.com/rabeya19/Performance_Testing/assets/50509949/1cf9afb0-078d-4737-97c6-9118f1111064) | ![error_5200](https://github.com/rabeya19/Performance_Testing/assets/50509949/8ee21330-c011-4825-a143-8c190faafe86)
 
 Number of Threads 5300, Ramp-up period is set to 10s with loop count of 1:
-![graph_5300](https://github.com/rabeya19/Performance_Testing/assets/50509949/f1af4822-b5eb-45c6-9ab0-b371b0d51eff)
-![error_5300](https://github.com/rabeya19/Performance_Testing/assets/50509949/25c77ac2-9a3b-422a-996a-b415a6cd051d)
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+![graph_5300](https://github.com/rabeya19/Performance_Testing/assets/50509949/f1af4822-b5eb-45c6-9ab0-b371b0d51eff) | ![error_5300](https://github.com/rabeya19/Performance_Testing/assets/50509949/25c77ac2-9a3b-422a-996a-b415a6cd051d)
 
 Number of Threads 5400, Ramp-up period is set to 10s with loop count of 1:
-![graph_5400](https://github.com/rabeya19/Performance_Testing/assets/50509949/48217f8e-02df-4cf0-81e8-36c24d918213)
-![error_5400](https://github.com/rabeya19/Performance_Testing/assets/50509949/8e55bc01-64d5-4d3c-8a32-ad7de2c50da2)
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+![graph_5400](https://github.com/rabeya19/Performance_Testing/assets/50509949/48217f8e-02df-4cf0-81e8-36c24d918213) | ![error_5400](https://github.com/rabeya19/Performance_Testing/assets/50509949/8e55bc01-64d5-4d3c-8a32-ad7de2c50da2)
 
 Number of Threads 5500, Ramp-up period is set to 10s with loop count of 1:
-![error_5500](https://github.com/rabeya19/Performance_Testing/assets/50509949/98f678f1-a921-48fc-8603-d90e0fc2d8ba)
-![graph_5500](https://github.com/rabeya19/Performance_Testing/assets/50509949/82ec1f22-6074-4000-bb1e-0cad73fefa75)
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+![graph_5500](https://github.com/rabeya19/Performance_Testing/assets/50509949/82ec1f22-6074-4000-bb1e-0cad73fefa75) | ![error_5500](https://github.com/rabeya19/Performance_Testing/assets/50509949/98f678f1-a921-48fc-8603-d90e0fc2d8ba)
 
 Number of Threads 5600, Ramp-up period is set to 10s with loop count of 1:
-![error_5600](https://github.com/rabeya19/Performance_Testing/assets/50509949/01b2dd08-f4f9-436b-81a6-744cfaffbefb)
-![graph_5600](https://github.com/rabeya19/Performance_Testing/assets/50509949/aa039022-e951-4cdd-a300-5e37e659881c)
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+![graph_5600](https://github.com/rabeya19/Performance_Testing/assets/50509949/aa039022-e951-4cdd-a300-5e37e659881c) | ![error_5600](https://github.com/rabeya19/Performance_Testing/assets/50509949/01b2dd08-f4f9-436b-81a6-744cfaffbefb)
 
 While executed 5400 concurrent request, found  82 request got connection timeout and error rate is 0.12%. 
 
@@ -90,24 +96,27 @@ Summary: Server can handle almost concurrent 5300 API call with almost zero (0) 
 Stress testing evaluates a system's stability by applying an excessive load. To perform stress testing with JMeter:
 
 Number of Threads 5400, Ramp-up period is set to 10s with loop count of 1:
-![graph_5400](https://github.com/rabeya19/Performance_Testing/assets/50509949/48217f8e-02df-4cf0-81e8-36c24d918213)
-![error_5400](https://github.com/rabeya19/Performance_Testing/assets/50509949/8e55bc01-64d5-4d3c-8a32-ad7de2c50da2)
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+![graph_5400](https://github.com/rabeya19/Performance_Testing/assets/50509949/48217f8e-02df-4cf0-81e8-36c24d918213) | ![error_5400](https://github.com/rabeya19/Performance_Testing/assets/50509949/8e55bc01-64d5-4d3c-8a32-ad7de2c50da2)
 
 Number of Threads 5500, Ramp-up period is set to 10s with loop count of 1:
-![error_5500](https://github.com/rabeya19/Performance_Testing/assets/50509949/98f678f1-a921-48fc-8603-d90e0fc2d8ba)
-![graph_5500](https://github.com/rabeya19/Performance_Testing/assets/50509949/82ec1f22-6074-4000-bb1e-0cad73fefa75)
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+![graph_5500](https://github.com/rabeya19/Performance_Testing/assets/50509949/82ec1f22-6074-4000-bb1e-0cad73fefa75) | ![error_5500](https://github.com/rabeya19/Performance_Testing/assets/50509949/98f678f1-a921-48fc-8603-d90e0fc2d8ba)
 
 Number of Threads 5600, Ramp-up period is set to 10s with loop count of 1:
-![error_5600](https://github.com/rabeya19/Performance_Testing/assets/50509949/01b2dd08-f4f9-436b-81a6-744cfaffbefb)
-![graph_5600](https://github.com/rabeya19/Performance_Testing/assets/50509949/aa039022-e951-4cdd-a300-5e37e659881c)
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+![graph_5600](https://github.com/rabeya19/Performance_Testing/assets/50509949/aa039022-e951-4cdd-a300-5e37e659881c) | ![error_5600](https://github.com/rabeya19/Performance_Testing/assets/50509949/01b2dd08-f4f9-436b-81a6-744cfaffbefb)
 
 ## Spike Testing
 
 Spike testing assesses how a system handles sudden spikes in traffic. To perform spike testing with JMeter:
-
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
 Number of Threads 6000, Ramp-up period is set to 10s with loop count of 1:
-![spike_graph6000](https://github.com/rabeya19/Performance_Testing/assets/50509949/2c751f7e-e4ac-4afc-b6ec-29904a208823)
-![spike_error600](https://github.com/rabeya19/Performance_Testing/assets/50509949/8e0816dc-b113-4df5-8e52-2a12128b1204)
+![spike_graph6000](https://github.com/rabeya19/Performance_Testing/assets/50509949/2c751f7e-e4ac-4afc-b6ec-29904a208823) | ![spike_error600](https://github.com/rabeya19/Performance_Testing/assets/50509949/8e0816dc-b113-4df5-8e52-2a12128b1204)
 
 ## Endurance Testing
 
