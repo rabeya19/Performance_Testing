@@ -17,8 +17,7 @@ JMeter empowers you to execute a diverse range of performance tests, encompassin
 6. [Spike Testing](#spike-testing)
 7. [Endurance Testing](#endurance-testing)
 8. [CSV File](#csv-file)
-9. [Best Practices](#best-practices)
-10. [Resources](#resources)
+9. [Resources](#resources)
 
 ## Getting Started
 
