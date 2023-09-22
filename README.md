@@ -137,7 +137,9 @@ CSV files offer flexibility and simplicity for handling data, configurations, an
 - Run the test to see if data from CSV file is read and populated in the results.
 
 Number of Threads 4, Ramp-Up Period 10s with loop count 1:
+:-------------------------:|:-------------------------:
 ![auth4](https://github.com/rabeya19/Performance_Testing/assets/50509949/f4e9819b-3b51-4300-a221-aa5571e49cfe) | ![auth1](https://github.com/rabeya19/Performance_Testing/assets/50509949/e0706e91-d7b7-405f-8b0c-87cc8e2a2538)
+:-------------------------:|:-------------------------:
 ![auth2](https://github.com/rabeya19/Performance_Testing/assets/50509949/453a00f4-d685-49b5-840d-ff17f36413ab) | ![auth3](https://github.com/rabeya19/Performance_Testing/assets/50509949/d8082f25-c961-4e43-bcc2-c74dba8ffda3)
 
 
