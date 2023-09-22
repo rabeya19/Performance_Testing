@@ -60,7 +60,7 @@ Load testing involves assessing how a system performs under expected loads. To p
 Number of Threads 5100, Ramp-up period is set to 10s with loop count of 1:
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
-![error_5100](https://github.com/rabeya19/Performance_Testing/assets/50509949/caec0fcf-d868-4088-bc64-b58f327272bc) | ![graph_5100](https://github.com/rabeya19/Performance_Testing/assets/50509949/033bea0d-2f79-482c-af42-9b2c37e7e7eb)
+![graph_5100](https://github.com/rabeya19/Performance_Testing/assets/50509949/033bea0d-2f79-482c-af42-9b2c37e7e7eb) | ![error_5100](https://github.com/rabeya19/Performance_Testing/assets/50509949/caec0fcf-d868-4088-bc64-b58f327272bc)
 
 Number of Threads 5200, Ramp-up period is set to 10s with loop count of 1:
 Requests Summary             |  Errors
@@ -124,15 +124,22 @@ Endurance testing evaluates system performance over an extended period. To perfo
 
 
 
-## CSV File
+## Read Test Data from CSV file
 
 CSV files offer flexibility and simplicity for handling data, configurations, and results in your project with JMeter:
 
-![cseFile](https://github.com/rabeya19/Performance_Testing/assets/50509949/eb146f63-87a8-4e91-bc2d-e52711930743)
-
+- Create a CSV file in the test suite folder and add test data to it:
+  ![cseFile](https://github.com/rabeya19/Performance_Testing/assets/50509949/eb146f63-87a8-4e91-bc2d-e52711930743)
+- Add a Config Element CSV Data Set Config in Jmeter:
+  ![Csv](https://github.com/rabeya19/Performance_Testing/assets/50509949/22cff79a-5f4f-491e-ae39-9b90e3c19aae)
+- Configure ' CSV Data Set Config ' based on the need such as providing path of CSV file and variable names and other configs:
 ![readCsv](https://github.com/rabeya19/Performance_Testing/assets/50509949/7b0d3d9c-0e10-4ce7-898c-f3fbbd103faf)
+- Run the test to see if data from CSV file is read and populated in the results.
 
-![Csv](https://github.com/rabeya19/Performance_Testing/assets/50509949/22cff79a-5f4f-491e-ae39-9b90e3c19aae)
+Number of Threads 4, Ramp-Up Period 10s with loop count 1:
+![auth4](https://github.com/rabeya19/Performance_Testing/assets/50509949/f4e9819b-3b51-4300-a221-aa5571e49cfe) | ![auth1](https://github.com/rabeya19/Performance_Testing/assets/50509949/e0706e91-d7b7-405f-8b0c-87cc8e2a2538)
+![auth2](https://github.com/rabeya19/Performance_Testing/assets/50509949/453a00f4-d685-49b5-840d-ff17f36413ab) | ![auth3](https://github.com/rabeya19/Performance_Testing/assets/50509949/d8082f25-c961-4e43-bcc2-c74dba8ffda3)
+
 
 ## Feedback and Questions
 
